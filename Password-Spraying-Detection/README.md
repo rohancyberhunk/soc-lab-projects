@@ -1,4 +1,4 @@
-<img width="1212" height="742" alt="splunk-password-spraying-results" src="https://github.com/user-attachments/assets/93cfea97-1ebf-476f-8837-f81b17f8bb80" />
+
 ## Password Spraying Detection – Splunk Lab
 
 ## 📌 Scenario
@@ -26,6 +26,12 @@ index=security EventCode=4625
 | where count > 5
 | sort - count
 ```
+---
+
+## 📸 Detection Screenshot
+
+The following screenshot shows the Splunk search results identifying multiple failed logins from the same source IP across different accounts.
+<img width="1212" height="742" alt="splunk-password-spraying-results" src="https://github.com/user-attachments/assets/93cfea97-1ebf-476f-8837-f81b17f8bb80" />
 
 ## 📊 Findings
 - Multiple accounts targeted from a single source IP
