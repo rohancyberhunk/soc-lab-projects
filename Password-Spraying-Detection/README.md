@@ -1,3 +1,4 @@
+<img width="1212" height="742" alt="splunk-password-spraying-results" src="https://github.com/user-attachments/assets/93cfea97-1ebf-476f-8837-f81b17f8bb80" />
 ## Password Spraying Detection – Splunk Lab
 
 ## 📌 Scenario
